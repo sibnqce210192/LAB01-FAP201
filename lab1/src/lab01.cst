@@ -1,0 +1,15 @@
+//==============================================================================
+// Constraint file: lab01
+// Target Device: GW5A-LV25UG324C2/I1
+// Board: Xiaomeige ACG525
+//==============================================================================
+
+// Switch inputs
+IO_LOC "i_sw0"  B16;   // SW0 = KEY0
+IO_LOC "i_sw1"  A15;   // SW1 = KEY1
+IO_LOC "i_sw2"  C15;   // SW2 = KEY2
+
+// LED outputs
+IO_LOC "o_led0" D14;   // D0 = LED0
+IO_LOC "o_led1" C14;   // D1 = LED1
+IO_LOC "o_led2" B9;    // D2 = LED2
